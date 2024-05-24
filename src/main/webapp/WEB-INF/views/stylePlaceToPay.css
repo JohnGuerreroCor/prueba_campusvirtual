@@ -1,0 +1,122 @@
+#test-environment {
+	background: #000;
+	margin-bottom: 0px
+}
+
+#test-environment .message {
+	color: #fff;
+}
+
+.expiration p {
+	margin-top: 25px;
+}
+
+header .merchant-information {
+	border-top: 20px solid #000;
+}
+
+header .progress-steps {
+	background: #8F141B;
+	box-shadow: 0px 0px 0px #e7e9ed;
+}
+
+header .progress-steps .steps .step .s-icon .circle {
+	background: #EDEFF0;
+}
+
+header .progress-steps .steps .step .line {
+	background: #EDEFF0;
+}
+
+header .progress-steps .steps .step.current .s-icon .circle {
+	background: #C7B363;
+}
+
+header .progress-steps .steps .step.current .line {
+	background: linear-gradient(90deg, #C7B363, #DFD4A6);
+}
+
+header .progress-steps .steps .step.current .item {
+	color: #C7B363;
+}
+
+header .progress-steps .steps .step.current .s-icon {
+	border: solid 1px #C7B363;
+}
+
+header .merchant-information .expiration {
+	color: #8F141B;
+}
+
+.receipt .summary .amount {
+	background: #8F141B;
+}
+
+.forms-wrapper .btn-primary {
+	background: #8F141B;
+	border: solid 1px #5C0E12;
+}
+
+.forms-wrapper .btn-primary:hover {
+	background: #b2262a;
+}
+
+header .progress-steps .steps .step .item {
+	color: #EDEFF0;
+}
+
+header .progress-steps .steps .step.success .s-icon .circle {
+	background: #C7B363;
+}
+
+header .progress-steps .steps .step.success .line {
+	background: #C7B363;
+}
+
+header .progress-steps .steps .step.success .item {
+	color: #C7B363;
+}
+
+.expired header .progress-steps #step-3 .line, .canceled header .progress-steps #step-3 .line
+	{
+	background: linear-gradient(90deg, #C7B363, #A6B1B6);
+}
+
+.expired header .progress-steps #step-4 .s-icon .circle, .canceled header .progress-steps #step-4 .s-icon .circle
+	{
+	background: #A6B1B6;
+}
+
+.expired header .progress-steps #step-4 .s-icon, .canceled header .progress-steps #step-4 .s-icon
+	{
+	border: solid 1px #A6B1B6;
+}
+
+.expired header .progress-steps #step-4 .item, .canceled header .progress-steps #step-4 .item
+	{
+	color: #A6B1B6;
+}
+
+.finished .message.module .text {
+	background: #C7B363;
+}
+
+.finished .receipt .summary .amount {
+	background: #C7B363;
+}
+
+.result-data .results .transaction.approved .state {
+	background: #C7B363;
+}
+
+.result-data .results .transaction.approved {
+	border: solid 1px #C7B363;
+}
+
+.result-data .results .transaction.rejected {
+	border: solid 1px #B15B60;
+}
+
+.result-data .results .transaction.rejected .state {
+	background: #B15B60;
+}

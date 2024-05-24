@@ -1,0 +1,138 @@
+
+
+#form-pqr{
+
+}
+
+#form-pqr p{
+	padding-bottom: 15px;
+}
+
+#form-pqr > #sliderForm{
+    position: fixed;
+    z-index: 10;
+}
+   
+#form-pqr #header{ 
+	background: #ffffff;
+    width: 260px;
+    position: fixed;
+    top: 10vh;
+    right: -260px;
+    border: 1px solid #d8d8d8;
+    padding: 20px 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px grey;
+     -webkit-transition: right .2s ease-out;/* For Safari 3.1 to 6.0 */
+    -moz-transition: right .2s ease-out;
+    -o-transition: right .2s ease-out;
+    transition:  right .2s ease-out;
+}
+
+
+#form-pqr #sidebar{
+	position: fixed;
+    top: 50vh;
+    right: 0px;
+    -webkit-transition: right .2s ease-out; /* For Safari 3.1 to 6.0 */
+    -moz-transition: right .2s ease-out;
+    -o-transition: right .2s ease-out;
+    transition: right .2s ease-out;
+
+}
+
+
+
+#form-pqr input[type=text]{ 
+	margin-top: 10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+}
+
+#form-pqr h4{
+	font-size:15px;
+}
+div#title{
+	position:absolute;
+	top:300px;
+	left:650px;
+	}
+	
+#form-pqr select{
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+}
+
+#form-pqr textarea{
+	padding:6px;
+	font-size:15px;
+	border-radius:2px;
+	margin-top: 10px;
+	overflow-y: scroll;
+	max-height:108px;
+	width:100%;
+	overflow-y: scroll;
+    height: 246px;
+}
+
+#form-pqr button{
+	background:#8D191D;
+	border: none;
+	color: #d8cea3;
+	width: 100%;
+	font-size: 22px;
+	font-weight: bolder;
+	padding: 8px 0 8px 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#form-pqr button:hover{
+	background-color: #b2262a!important;
+}
+
+#form-pqr button[disabled]:hover{
+	background-color: #E6E6E6!important;
+	cursor:initial;
+}
+
+
+#form-pqr > .md-button.md-default-theme[disabled], .md-button[disabled]{
+    color: #fff!important;
+}
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/
+.formget{
+	width:300px;
+	margin-top: 65px;
+	margin-left: 57px;
+	float: left;
+	}
+	
+div#form-pqr md-input-container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.loading{
+	text-align:center;
+	width:100%;
+}
+
+input[type="reset"][disabled], input[type="submit"][disabled], html input[type="button"][disabled], button[disabled] {
+    background: #E6E6E6!important;
+}
+
+.md-button.md-default-theme.md-primary, .md-button.md-primary {
+    color: #ffffff!important;
+    background-color: #8D191D!important;
+}
+
+.margin-left{
+	margin-left:16px;
+}

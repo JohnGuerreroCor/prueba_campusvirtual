@@ -1,0 +1,1265 @@
+#master-content {
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+.ie-only {
+	display: none;
+}
+
+.md-portal-header {
+	height: 134px;
+}
+
+.md-button {
+	text-transform: none;
+}
+
+.logo-button:focus {
+	background-color: none !important;
+}
+
+md-content .md-button:hover {
+	text-decoration: none;
+	background-color: #b2262a !important;
+}
+
+button[disabled]:hover {
+	background-color: #E6E6E6 !important;
+}
+
+.subsections .md-button:hover {
+	text-decoration: none;
+	background-color: #b2262a !important;
+}
+
+.toolbar-portal-first {
+	min-height: 30px;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	z-index: 11;
+}
+
+.toolbar-portal-second {
+	background-color: #ffffff !important;
+	min-height: 50px;
+	position: fixed;
+	top: 30px;
+	opacity: 1;
+	z-index: 5;
+}
+
+.toolbar-portal-second .dropbtn:hover {
+	background-color: #f1f1f1 !important;
+}
+
+.toolbar-portal-third {
+	background-color: #8D191D !important;
+	min-height: 50px;
+	position: fixed;
+	top: 82px;
+	opacity: 1;
+	z-index: 4;
+}
+
+.toolbar-portal-third .dropbtn:hover {
+	background-color: #b2262a !important;
+}
+
+.toolbar-portal-fourth {
+	min-height: 50px;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	z-index: 10;
+}
+
+.toolbar-portal-fourth .logo-button img {
+	width: 90px;
+}
+
+button.dropbtn.hvr-underline-from-left.no-cursor.ng-binding.ng-scope {
+	outline: none;
+}
+
+.md-tab:hover {
+	background-color: #f1f1f1;
+}
+
+.logo-content {
+	left: 50%;
+	position: absolute;
+	width: 185px;
+}
+
+.logo-content .logo-button {
+	position: relative;
+	height: 190px;
+	margin: 0;
+	right: 135px;
+	padding: 0;
+	z-index: 11;
+}
+
+.toolbar-portal-fourth .logo-content {
+	width: 100px;
+}
+
+.toolbar-portal-fourth .logo-content .logo-button {
+	right: 46px;
+	height: 105px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.md-portal-header-mobile {
+	z-index: 4;
+}
+
+#mobile-toolbar-admin {
+	background-color: #8D191D;
+	color: #ffffff;
+}
+
+.md-portal-header-mobile .menu {
+	background-color: #ffffff !important;
+}
+
+.menu {
+	background-color: transparent;
+	border-left: 1px solid #2f2f2f;
+	border-right: 1px solid #2f2f2f;
+	border-radius: 0;
+	color: #4c4c4c;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 5px;
+	width: 36px;
+}
+
+.menu md-icon.ng-scope {
+	color: #2f2f2f;
+	fill: #2f2f2f;
+}
+
+.md-portal-header-mobile .escudo-mobile {
+	margin-top: 3px;
+	width: 100%;
+}
+
+.no-cursor {
+	cursor: auto !important;
+}
+
+.no-text-transform {
+	text-transform: none !important;
+}
+
+.logo-button:not ([disabled] ):hover, .logo-button  :not ([disabled] ):hover
+	{
+	background-color: transparent;
+}
+
+.logo-mobile {
+	cursor: pointer !important;
+}
+
+/****** Menu ******/
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: inherit !important;
+	border: none;
+	cursor: pointer;
+}
+
+.toolbar-portal-first .dropbtn {
+	color: #e8e7e7;
+	font-size: small;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.toolbar-portal-second .dropbtn {
+	background-color: #ffffff;
+	color: #2f2f2f;
+	min-height: 52px;
+	padding-bottom: 14px;
+	padding-top: 14px;
+}
+
+.toolbar-portal-second .dropbtn:before {
+	background: #003561;
+}
+
+.toolbar-portal-third .dropbtn {
+	background-color: #8D191D;
+	color: #D8CEA3;
+	min-height: 50px;
+	padding-bottom: 14px;
+	padding-top: 14px;
+}
+
+.toolbar-portal-third .dropbtn:before {
+	background: #d8cea3;
+}
+
+.toolbar-portal-fourth .dropbtn {
+	background-color: #ffffff;
+	color: #2f2f2f;
+	padding-bottom: 14px;
+	padding-top: 14px;
+}
+
+.toolbar-portal-fourth .dropbtn:before {
+	background: #003561;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.left-dropdown {
+	left: 0;
+}
+
+.right-dropdown {
+	right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: #2f2f2f;
+	font-size: small;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+	width: 100%;
+	z-index: 10;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.toolbar-portal-first .dropdown:hover .dropbtn {
+	color: #ffffff;
+}
+
+.toolbar-portal-first .dropdown:hover .dropbtn {
+	color: #000000;
+}
+
+.toolbar-portal-first .dropdown:hover .dropbtn {
+	color: #ffffff;
+}
+
+.dropdown a.ng-binding.ng-scope {
+	cursor: pointer;
+}
+
+.searcher {
+	border: 2px solid #2f2f2f;
+	color: #ffffff;
+	background: #2f2f2f;
+	left: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+}
+
+.social-networks {
+	position: absolute;
+	right: 2px;
+	top: 0;
+}
+
+.social-networks i {
+	font-size: 30px;
+}
+
+.social-networks a {
+	color: #e8e7e7 !important;
+}
+
+.social-networks a:hover {
+	color: #ffffff !important;;
+}
+
+.hiding {
+	display: none;
+}
+
+/****** Menu ******/
+
+/****** Sidenav ******/
+#sidenav-portal {
+	color: #edecec;
+	background-color: #252525;
+	position: fixed;
+	overflow-y: scroll;
+}
+
+md-backdrop.md-opaque {
+	position: fixed;
+}
+
+.close-sidenav-portal {
+	border-radius: 0;
+	background-color: #edecec;
+	font-size: 24px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+	text-align: center !important;
+}
+
+#sidenav-portal .md-button {
+	text-align: left;
+	text-transform: inherit;
+	width: 100%;
+}
+
+#sidenav-portal md-list {
+	padding: 0;
+}
+
+#option-sidenav-portal {
+	background: #a1151a;
+	min-height: 36px;
+	width: 100%;
+}
+
+#sidenav-portal .menu-button {
+	border-bottom: 1px solid #3f3f3f;
+	margin: 0;
+	text-align: left;
+	text-transform: inherit;
+	width: 100%;
+}
+
+#sidenav-portal md-list-item {
+	margin: 0;
+	min-height: 37px;
+}
+
+md-list#sub-menu-portal {
+	background: #ffffff;
+	color: #2f2f2f;
+	width: 100%;
+}
+
+.close-sidenav-portal {
+	border-radius: 0;
+	background-color: #ffffff;
+	color: #a1151a;
+	margin: 0px 0px 0px 0px;
+	max-width: 88px !important;
+}
+
+.close-sidenav-portal:not ([disabled] ):hover {
+	background-color: #ffffff;
+	color: #bf191f;
+}
+
+#menu-sidenav-portal {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 6px;
+}
+
+.searcher-insidenav {
+	background: #000;
+	border: none;
+	text-align: left;
+	color: #ffffff;
+	min-height: 30px;
+	padding-left: 6px;
+}
+
+#sub-menu-portal .menu-button {
+	border-bottom: 1px solid #e2e2e2;
+	border-radius: 0;
+	font-size: 12px;
+	padding-left: 22px;
+}
+
+#sidenav-portal .social-networks {
+	position: absolute;
+	margin: 2px;
+}
+
+#sidenav-portal .social-networks a {
+	color: #ffffff !important;
+}
+
+/****** Sidenav ******/
+
+/****** Slider ******/
+#slider-container {
+	position: relative;
+	height: 75vh;
+}
+
+.escudo-container {
+	max-height: 52px !important;
+}
+
+.escudo-colombia {
+	border: none;
+	max-height: 90px;
+	max-width: 90px;
+	position: relative;
+	top: 25px;
+	z-index: 5;
+	width: 100%;
+}
+
+.escudo-colombia-mobile {
+	border: none;
+	position: relative;
+	max-width: 40px;
+	height: 40px;
+	top: 10px;
+	z-index: 5;
+}
+
+.escudo-colombia-mobile img {
+	width: 80%;
+}
+
+#slider-container .nav-arrows span {
+	z-index: 3 !important;
+}
+
+#slider-container .nav-dots {
+	z-index: 3 !important;
+}
+
+.bg-slide {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+#first-text {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #2f2f2f;
+	padding: 0;
+	font-size: 26px;
+}
+
+#secondary-text {
+	position: relative;
+	background: #2f2f2f;
+	padding: 5px;
+	width: 50%;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	margin: 30% auto;
+}
+
+.bg-control-1 {
+	background: rgba(255, 255, 255, .5);
+	height: 80px;
+	left: 2%;
+	position: absolute;
+	top: 45%;
+	width: 80px;
+	z-index: 9;
+}
+
+.bg-control-2 {
+	background: rgba(255, 255, 255, .5);
+	height: 80px;
+	right: 2%;
+	position: absolute;
+	top: 45%;
+	width: 80px;
+	z-index: 9;
+}
+
+.extra-margin {
+	margin-top: -77px;
+}
+
+/****** Slider ******/
+
+/****** Sub sections ******/
+.subsections {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+.container-subsection md-card-title-text {
+	margin: auto;
+}
+
+.title-subsection {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 40px;
+	margin: 50px 0 30px 0;
+}
+
+.title-subsection-programa {
+	margin: 80px 0 30px 0;
+}
+
+.container-subsection {
+	text-align: center;
+}
+
+.container-subsection md-card {
+	display: inline-block;
+	max-width: 400px;
+	min-width: 264px;
+}
+
+.image-container-subsection {
+	border-bottom: 5px solid #8D191D;
+	max-height: 260px;
+	overflow: hidden;
+}
+
+.image-container-subsection img.md-card-image {
+	min-width: 100%;
+}
+
+.container-subsection .md-card-image {
+	
+}
+
+.inactive {
+	opacity: 0.6;
+	filter: alpha(opacity = 60); /* msie */
+	-webkit-filter: grayscale(1); /* Webkit */
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* W3C */
+}
+
+#out-screen {
+	background-color: #000000;
+	min-width: 100%;
+}
+
+.container-subsection md-card-content p {
+	text-align: left;
+}
+
+.vermas-button-container {
+	width: 100%;
+}
+
+.vermas-button-container-mobile {
+	margin: 0 auto;
+}
+
+.see-more-course {
+	font-size: large;
+	text-transform: none;
+	width: 100%;
+}
+
+.see-more-courses {
+	font-size: large;
+	margin-right: 3%;
+	text-transform: none;
+}
+
+a.nocase.larger-text.text-main-white.bg-main-red.md-button.md-ink-ripple.flex-100
+	{
+	border-radius: 0;
+}
+
+md-card md-card-title {
+	padding-top: 0;
+}
+
+.text-content-card {
+	color: #414648;
+}
+
+.title-head {
+	border-bottom: 1px solid #b3b3b3;
+	color: #12100E;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.title-head:first-letter {
+	text-transform: uppercase;
+}
+
+.cardTitleMobile {
+	height: auto !important;
+}
+
+.animation {
+	transition: all ease 0.4s;
+}
+
+.animation-2 {
+	transition: all ease-in 0.3s;
+}
+
+.no-programa {
+	padding: 0 20px 20px 20px;
+}
+
+.container-subsection md-card-content {
+	min-height: 118px;
+	padding-bottom: 0;
+}
+
+.no-text-transform {
+	text-transform: none !important;
+}
+
+.mas-programas {
+	width: 230px;
+}
+
+/*** Slider ***/
+.playSlider {
+	font-size: 50px;
+	height: 60px;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 30px;
+	right: 40px;
+	background: rgba(255, 255, 255, 0.5);
+	border: none;
+	width: 60px;
+	color: #2f2f2f;
+	z-index: 9;
+}
+
+.stopSlider {
+	font-size: 50px;
+	height: 60px;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 30px;
+	right: 40px;
+	background: rgba(255, 255, 255, 0.5);
+	border: none;
+	width: 60px;
+	color: #2f2f2f;
+	z-index: 9;
+}
+
+/*** Slider ***/
+
+/****** Preloading ******/
+.no-js #loader {
+	display: none;
+}
+
+.js #loader {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/gif-load.gif) center no-repeat #fff;
+}
+
+/****** Preloading ******/
+
+/****** Lower case ******/
+.lowercase {
+	text-transform: lowercase;
+}
+
+/****** Lower case ******/
+
+/****** Narrow outline ******/
+.narrow-sections {
+	outline: none
+}
+
+/****** Narrow outline ******/
+
+/****** Pointer to carousel ******/
+.subsections .pointer {
+	cursor: pointer;
+}
+
+/****** Pointer to carousel ******/
+.cajas-texto {
+	max-width: 350px;
+	width: 300px;
+}
+
+.cajas-texto2 {
+	margin-top: 35px;
+}
+
+/****** Sub sections ******/
+
+/***** Footer *****/
+.footer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.footer .width-space {
+	width: 5px;
+}
+
+.centering {
+	text-align: center;
+}
+
+.dependencias {
+	padding: 10px;
+}
+
+.vice-titulo {
+	width: 100%;
+}
+
+/****** Footer ******/
+
+/****** Responsive rulez ******/
+
+/****** PC ******/
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width:
+	1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width:
+	1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution:
+	192dpi) {
+}
+
+/* ----------- 960px ------------*/
+@media screen and (min-width: 740px) and (max-width: 960px) {
+	.bg-slide {
+		height: 100%;
+	}
+	#first-text {
+		line-height: 115%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.bg-slide {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.bg-slide {
+		height: 100%;
+	}
+}
+
+/* Custom media query */
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+	.logo-content .logo-button {
+		height: 144px;
+		right: 100px;
+	}
+	.logo-button>img {
+		width: 200px;
+	}
+}
+
+/* Custom media query */
+@media screen and (max-width: 1280px) {
+	.md-portal-header {
+		height: 132px;
+	}
+	select, button, textarea, input {
+		font-size: 80%;
+	}
+}
+
+/****** PC ******/
+
+/****** Mobiles ******/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	landscape) {
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	portrait) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	landscape) {
+	.bg-slide {
+		top: 0;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	portrait) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:
+	landscape) {
+	.bg-slide {
+		left: 0;
+		height: auto;
+		top: 0;
+		width: 100%;
+	}
+	#first-text {
+		top: 9%;
+	}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width:
+	736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width:
+	736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation:
+	portrait) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width:
+	736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation:
+	landscape) {
+	#first-text {
+		top: 9%;
+	}
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	.bg-slide {
+		height: 100vh;
+		top: 0;
+	}
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and
+	(-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 384px) {
+	.escudo-colombia-mobile {
+		opacity: 0 !important;
+	}
+}
+
+/****** Mobiles ******/
+
+/****** Tablets ******/
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: portrait) and
+	(-webkit-min-device-pixel-ratio: 1) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: landscape) and
+	(-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: portrait) and
+	(-webkit-min-device-pixel-ratio: 1) {
+	.bg-slide {
+		height: 100vh;
+		left: -50%;
+		top: 0;
+		width: auto;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: landscape) and
+	(-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: portrait) and
+	(-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) and (orientation: landscape) and
+	(-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media ( min-device-width : 800px) and (max-device-width: 1280px) {
+}
+
+/* Portrait */
+@media ( max-device-width : 800px) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media ( max-device-width : 1280px) and (orientation: landscape) {
+}
+
+/* ----------- Asus Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and
+	(-webkit-min-device-pixel-ratio: 1.331) and
+	(-webkit-max-device-pixel-ratio: 1.332) {
+}
+
+/* Portrait */
+@media screen and (device-width: 601px) and (device-height: 906px) and
+	(-webkit-min-device-pixel-ratio: 1.331) and
+	(-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and
+	(-webkit-min-device-pixel-ratio: 1.331) and
+	(-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+}
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width:
+	1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 800px) and (max-device-width:
+	1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:
+	portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width:
+	1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:
+	landscape) {
+}
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width:
+	1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 1200px) and (max-device-width:
+	1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:
+	portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width:
+	1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:
+	landscape) {
+}
+
+/****** Tablets ******/
+
+/****** Responsive rulez ******/
+
+/*** lightbox home ***/
+.md-dialog-container {
+	z-index: 100;
+}
+
+.md-dialog-container .md-button.md-primary.md-raised:not ([disabled] ):hover
+	{
+	text-decoration: none;
+	background-color: #b2262a !important;
+}
+
+.tabsInscripcion .md-button.md-primary.md-raised:hover {
+	background-color: #D8CEA3 !important
+}
+
+.tabsInscripcion .md-tab.md-active {
+	color: #D8CEA3 !important;
+	background-color: #8D191D !important;
+}
+
+.tabsInscripcion .md-tab:hover {
+	color: #D8CEA3 !important;
+	background-color: #8D191D;
+}
+
+.tabsInscripcion ol {
+	margin-left: 20px;
+}
+
+.tabsInscripcion ul {
+	margin-left: 20px;
+}
+
+.tabsInscripcion li {
+	margin-top: 10px;
+}
+
+#initMessage .tabsInscripcion .md-button.md-primary.md-raised[disabled]
+	{
+	background-color: #808080 !important;
+	cursor: initial;
+}
+
+div#initMessage .tabsInscripcion .md-button.md-primary.md-raised[disabled]:hover
+	{
+	background-color: #808080 !important;
+	cursor: initial;
+}
+
+img.gif {
+	max-width: 100%;
+}
+
+/*div#fechaExpedicionInscripcion md-input-container{
+	height: 34px;
+    width: 100%;
+}
+div#fechaExpedicionInscripcion label{
+	padding-left: 66px;
+}
+div#fechaExpedicionInscripcion input {
+	max-width: 100%;
+}
+div#fechaExpedicionInscripcion .md-datepicker-button{
+	float:left;
+}
+div#fechaExpedicionInscripcion .md-datepicker-input-container{
+	height:100%;
+}*/
+md-input-container:not (.md-input-invalid ).md-input-focused md-icon {
+	color: #8d191d !important;
+}
+
+.md-default-theme .md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator,
+	.md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator,
+	.md-default-theme .md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator,
+	.md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator
+	{
+	background: rgb(141, 25, 29);
+}
+
+.barra-franquicias {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	background: #8F141B;
+}
+
+.image-franquicia {
+	width: 9%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.logo-placetopay{
+	
+}

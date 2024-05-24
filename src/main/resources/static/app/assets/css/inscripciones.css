@@ -1,0 +1,152 @@
+.table {
+	text-align: center;
+	margin: auto;
+	max-width: 500px;
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	border-collapse:collapse; 
+	border: none;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 5px;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+	background-color: white;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 5px;
+}
+
+input[type="file"] {
+	z-index: 999;
+	line-height: 0;
+	font-size: 0px;
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-ms-filter: "alpha(opacity=0)";
+	margin: 0;
+	padding: 0;
+	left: 0;
+}
+
+#btnCargue {
+	text-align: center;
+	background-color: brown;
+	color: #fff;
+	display: block;
+	border-radius: 3px;
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	line-height: 1.6em;
+	width: 280px;
+	cursor: pointer;
+	margin: auto;
+}
+
+#BDreta_index {
+	position: absolute;
+	right: 60px;
+	bottom: 30px;
+}
+
+.md-button.md-default-theme.md-primary, .md-button.md-primary {
+	color: white;
+	background: #8d191d !important;
+}
+
+@media only screen and (max-width: 700px) {
+	#BDreta_index {
+		position: absolute;
+		right: 35px;
+		bottom: 5px;
+	}
+}
+
+.container-subsection {
+	width: 95% !important;
+}
+
+#projectForm{
+	width: 100%;
+}
+
+#inscripcion-form {
+	width: 100%;
+}
+
+p#error-inscription {
+	position: relative;
+}
+
+.md-datepicker-input-container {
+   width: 72%;
+}
+
+.titulo-seccion-formulario{
+	margin-top: 20px;
+}
+
+
+#title-subsection-signin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div#content-buttons {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#pagenumber {
+	text-align: center;
+	width: 100%;
+}
+
+/* separador contenedor del logo */
+md-content.subsections {
+	margin-top: 60px;
+}
+/* separador contenedor del logo */
+
+/* Color de contenedor */
+md-content.md-padding._md {
+	background: white;
+}
+/* Color de contenedor */
+
+/* color fondo tabs */
+md-tab-item.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple.md-active {
+	background-color: #8d191d;
+}
+/* color fondo tabs */
+
+/* color fondo botones */
+.subsections {
+	background-color: #8d191d;
+	height: auto;
+}
+/* color fondo botones */
+
+/* color toolbar */
+.md-toolbar-tools {
+	background-color: #8d191d;
+}
+/* color toolbar */
+.carddemoBasicUsage {
+	text-align: left;
+}
+
+.listRequerimientos {
+	list-style: none;
+	text-align: left;
+	width: 80%;
+}
+
+.listRequerimientos li{
+	margin-bottom: 10px !important;
+}

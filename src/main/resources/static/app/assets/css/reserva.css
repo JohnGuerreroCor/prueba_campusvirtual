@@ -1,0 +1,210 @@
+body{
+	background-color: rgb(250,250,250);
+	
+}
+
+#subsections {
+    padding-top: 0;
+}
+
+.md-tab {
+ 	color: black!important;
+}
+
+.escudo-basedatos-biblioteca{
+   	margin-right: 0px!important;
+    height: 55px;
+    width: 41px;
+}
+
+#basededatos md-card-title {
+   height: auto;
+}
+
+.container-subsection{
+	display:inline-block;
+}
+
+.container-subsection md-card{
+	vertical-align: top;
+}
+
+.container-subsection md-card md-card-header {
+    padding: 4px;
+}
+
+.container-subsection md-card md-card-header md-card-avatar + md-card-header-text {
+    max-height: 100%;
+}
+
+.container-subsection md-card md-card-header md-card-avatar + md-card-header-text .md-title {
+    margin: auto 0;
+}
+
+md-card md-card-content {
+    height: 152px;
+    overflow: hidden;
+}
+
+.expand{
+	outline: none;
+}
+
+.expand i{
+	cursor: pointer;
+}
+
+.space{
+	margin: 5px 0;
+}
+
+md-tab-item.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple.md-active {
+	background: #8d191d;
+    color: #ffffff!important;
+}
+
+.show-animation {
+  -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+   transition: height 0.5s;
+}
+
+.title-vc-section{
+	font-size:40px;
+	text-align:center;
+	margin-top:140px;
+	margin-bottom:60px;
+}
+.espacio {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.informacion-reserva {
+	padding-left:16px;
+}
+
+.title-vc-section-mobile{
+	margin-top:40px;
+	margin-bottom:20px;
+	font-size: 30px;
+}
+
+.boton-reserva-mobile{
+	text-transform: none;
+	color:#d8cea3;
+	font-size: 18px;
+}
+
+.boton-reserva-mobile{
+  animation: colorchange 2s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 2s infinite; /* Chrome and Safari */
+  -moz-animation: colorchange 2s infinite; /* Chrome and Safari */
+}
+
+
+.boton-reserva{
+	text-transform: none;
+	color:#d8cea3;
+	font-size: 18px;
+	margin-right:20px;
+	float:right;
+}
+
+ .boton-reserva{
+  animation: colorchange 2s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 2s infinite; /* Chrome and Safari */
+  -moz-animation: colorchange 2s infinite; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: #8d191d;}
+  
+  50%   {background: #d8cea3; color:#ffffff;}
+  
+  100% {background: #8d191d;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #8d191d;}
+  
+  50%   {background: #d8cea3; color:#ffffff;}
+  
+  100% {background: #8d191d;}
+ 
+}
+
+@-moz-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #8d191d;}
+  
+  50%   {background: #d8cea3; color:#ffffff;}
+  
+  100% {background: #8d191d;}
+ 
+}
+.subtitle{
+	margin-bottom:10px;
+	text-align:left;
+	width:100%;
+}
+
+.subtitle-line{
+	width:100%;
+}
+
+.paragraph{
+	font-size: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: left;
+}
+
+#subsections h2 {
+	text-align:left;
+}
+
+.uso-container.flex li {
+    font-weight: 500!important;
+}
+
+.image-container{
+    margin-left: 5px;
+    margin-right: 5px;
+	overflow: hidden;
+} 
+
+.image-container img{
+	position:relative;
+	position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);  /* IE 9 */
+    transform: translate(-50%, 0%);
+} 
+
+.list-numbers{
+    position: relative;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.image-block{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.uso-container{
+	width:97%;
+}
+
+.list-use{
+	margin-left: 16px;
+}
+
+.underline{
+	text-decoration:underline;
+}

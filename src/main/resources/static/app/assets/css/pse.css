@@ -1,0 +1,99 @@
+#subsections-confirmar-correo{
+	margin:0 auto;
+	padding:10px;
+	padding-top:100px;
+}
+
+.info-titulo{
+	background: #9a050b;
+	color:white!important
+}
+
+.receipt{
+	border:1px solid #cecece;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	font-size: small;
+    padding-bottom: 14px;
+    padding-left:5px;    
+    text-align: left;
+}
+
+.reciept-color{
+	background:#f1f1f1;
+	margin-bottom: 15px;
+}
+
+.button-online{	
+	cursor:pointer;
+}
+
+input[type=text], select {
+	color: #1E262B;
+	font-size: 12px;
+	width: 100%;
+	padding:10px;
+}
+
+.button-receitp{
+	cursor:pointer;
+}
+
+#selection-method {
+	text-align:left;
+	
+}
+
+.text-post-mail{
+	width:100%;
+}
+
+.requirement-list{
+	padding-left:30px;
+}
+
+.title-table-receipt{
+	background: #ffffff;
+	border: 1px solid #cecece;
+}
+
+
+/*Datos responsive*/
+#page-content{
+	width: 800px;
+}
+#wrapper{
+    width: 100%;
+}
+
+article{
+	float:left;
+	height: 100%;
+	padding: 0px 10px 10px 10px;
+	text-align: left;
+}
+
+#column{
+	width: 100%;
+}
+#column1{
+	width: 40%;	
+}
+#column2{
+	width: 60%;
+}
+
+@media screen and (max-width: 700px){
+
+	#column1{
+		width: 100%;
+	}
+	#column2{
+		width: 100%;
+		margin-top: -10px;
+	}
+
+}
