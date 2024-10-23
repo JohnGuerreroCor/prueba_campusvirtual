@@ -9,7 +9,7 @@
 	<p layout="row" class="text-main-white centering"><strong>Horario de atención al público: </strong></p>
 	<p layout="row" class="text-main-white centering">Lunes a viernes de 8:00 a.m. a 12:00 m. y de 2:00 p.m. a 6:00 p.m</p>
 	<p layout="row" class="text-main-white centering">Línea Gratuita Nacional: 018000 968722</p><br>
-	<img layout="row" src="/campusvirtual/app/assets/img/icontec.png" alt="logos icontect" title="logos icontect" />	
+	<img layout="row" src="/campusvirtual/app/assets/img/icontec.svg" alt="logos icontect" title="logos icontect" />	
 </div>
 <span layout="colum" flex></span>
 </div>
